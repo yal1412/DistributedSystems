@@ -15,6 +15,9 @@ public class Account {
     @Getter
     @Setter
     private double balance;
+    
+    @Version
+    private long version;
 
     public Account() {
         this.id = 0;
